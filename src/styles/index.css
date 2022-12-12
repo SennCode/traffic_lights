@@ -10,3 +10,39 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.traffic-light{
+    background: black;
+    padding: 10px;
+    display: inline-block;
+    position: absolute;
+    margin-left: 50%;
+    border-radius: 25px;
+    
+}
+
+
+.light{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.red{
+    background: red;
+    filter: blur(2px) saturate(100%) brightness(130%);
+}
+
+.yellow{
+    background: yellow;
+    filter: blur(2px)saturate(100%) brightness(130%);
+}
+
+.green{
+    background: green;
+    filter: blur(2px)saturate(100%) brightness(130%);
+}
+
+.glow{
+    box-shadow: 0px 0px 19px 4px #747DE8;
+    
+}
